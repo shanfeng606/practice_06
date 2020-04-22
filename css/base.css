@@ -1,0 +1,328 @@
+p{
+    margin:0;
+    padding:0;
+    display: inline-block;
+}
+input{
+    border: none;
+}
+/* top ---------------------- */
+.top{
+    line-height:30px;
+    font-size: 13px;
+    color: #868686;
+}
+.top .call{
+    float: left;
+    padding-left: 20px;
+    background: url(../img/icon-call.png) no-repeat center left;
+}
+.top .welcome{
+    float: right;
+}
+.top a{
+    color:#2da5e1;
+    padding-left: 10px;
+}
+
+/* header------------------- */
+.header .logo{
+    width:402px;
+    height: 74px;
+    padding:9px 0;
+    display: inline-block;
+}
+.header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.header .search{
+    width: 326px;
+    height: 38px;
+    /* float:right; */
+    position: absolute;
+    right: 0px;
+    top:29px;
+    /* background-color: orange; */
+}
+
+/* nav------------------------------- */
+.nav .wrap .link{
+    float:left;
+    padding:0 30px;
+    line-height:36px;
+    font-size: 16px; 
+}
+
+.link:hover{
+    background-color: #87ceeb;
+}
+.nav .wrap .link:last-child{
+    float: right;
+}
+
+/* intro  ----------------------------*/
+.intro_title{
+    
+    line-height: 60px;
+    margin :0 30px;
+    font-size:14px ;
+    border-bottom: 1px solid #999;
+}
+.intro_title p:nth-child(1){
+    font-size: 20px;
+    margin-right:15px;
+}
+.guanzhu{
+    color: orange;
+}
+.intro_title-detail{
+    float: right;
+}
+.intro_title-detail span:nth-child(odd){
+    color: orange;
+}
+
+.hos_photo{
+    box-sizing: content-box;
+    width: 200px;
+    height:150px;
+    float: left;
+    background: url(../img/hospital-1.jpg) no-repeat;
+    margin-left: 25px;
+    margin-top:12px;
+}
+.intro_text{
+    float: left;
+    width:450px;
+    margin-left:26px;
+    margin-top:8px;
+    margin-bottom:16px;
+    font-size: 14px;
+}
+.intro_text p{
+    line-height: 24px;
+    padding-left: 28px;
+    position: relative;
+}
+.intro_text p:before{
+    content:' ';
+    position: absolute;
+    top:4px;
+    left:5px;
+    width:16px;
+    height:16px;
+}
+.intro_text p:nth-child(1):before{
+    background: url(../img/icon-web.png) no-repeat 0 0;
+    background-position: 0 0;
+}
+.intro_text p:nth-child(2):before{
+    background: url(../img/icon-web.png) no-repeat 0 0;
+    background-position: 0 -22px;
+}
+.intro_text p:nth-child(3):before{
+    background: url(../img/icon-web.png) no-repeat 0 0;
+    background-position: 0 -44px;
+}
+.intro_text p:nth-child(4):before{
+    background: url(../img/icon-web.png) no-repeat 0 0;
+    background-position: 0 -63px;
+}
+.map{
+    box-sizing: content-box;
+    width: 250px;
+    height:166px;
+    float: right;
+    background: url(../img/map-1.png) no-repeat;
+    margin-right: 25px;
+    margin-top:12px;
+}
+
+/* system------------------------------ */
+.system_title{
+    border-bottom: #60bff2 2px solid;
+}
+.system_title a{
+    line-height: 50px;
+    padding:13px 20px;
+    font-size: 18px;
+}
+.system_cur{
+    color: #fff;
+    background-color:#60bff2;
+
+}
+/* 开放预约科室 */
+.system_content_items{
+    display: block;
+}
+.system_content_left{
+    margin-top: 20px;
+    float: left;
+    width:710px ;
+    /* background: peachpuff; */
+    
+}
+.system_content_left_title{
+     line-height: 46px;
+     width: 100%;
+     box-sizing: border-box;
+     padding-left: 30px;
+     background-color:#f4f6fa;
+}
+.room{
+    height:90px;
+    /* background-color: pink; */
+    position: relative;
+    border-bottom: solid 1px #f4f6fa;
+}
+.room p{   
+    position: absolute;
+    left:0;
+    text-align: center;
+    width: 140px;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top:20px;
+    background-color:#f2fbff;
+}
+.room_list{
+    position: absolute;
+    right:0;
+    width:570px ;
+    display: inline-block;
+    height: 100%;
+    
+}
+.room_list span{
+    display: inline-block;
+    margin:5px 10px;
+    cursor: pointer;
+}
+
+/* 预约规则------------------------------------------- */
+.system_content_right{
+    margin-top: 20px;
+    width:270px;
+    height:300px;
+    float:right;
+    /* background-color:rgb(219, 163, 163); */
+    position: relative;
+    padding:0;
+    
+    
+}
+.rule{
+    height:250px;
+    overflow-y: scroll;
+}
+.system_content_right p{
+    line-height: 46px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background-color:#f4f6fa;
+    
+}
+.system_content_right>span{
+    position: absolute;
+    left:100px;
+    top:18px;
+    font-size: 12px;
+    color:#60bff2;
+    /* color: #60bff2; */
+}
+.system_content_right_detail{
+    
+    width: 100%;
+    display: block;
+    /* background-color: slateblue; */
+    
+}
+.system_content_right_detail span:nth-child(1){
+    float: left;
+    width:60px;
+    height:100%;
+    line-height: 30px;
+    padding-left: 10px;
+    /* background-color: slategray; */
+    font-size: 12px;
+}
+.system_content_right_detail span:nth-child(2){
+    float:right;
+    width:180px;
+    line-height: 30px;
+    /* background-color: tan; */
+    font-size: 12px;
+}
+
+/* 医院介绍 预约通知 确诊信息 */
+.item_1{
+    padding:10px;
+    display: none;
+}
+.item_1 p{
+    /* text-align: center; */
+    display: block;
+    line-height: 30px;
+    text-indent: 32px;
+}
+.item_2{
+    padding:10px;
+    display: none;
+}
+.item_2 h3{
+    text-align: center;
+}
+.item_2 p{
+    font-weight: bolder;
+    display:block;
+    margin-top: 10px;
+    
+}
+.item_2 span{
+    display: block
+    
+}
+.item_3{
+    padding:10px;
+    display: none;
+}
+.item_3 h3{
+    text-align: center;
+}
+.item_3 table{
+    border-collapse: collapse;
+}
+.item_3  td{
+    text-align: center;
+}
+
+
+/* 查询订单 */
+.order{
+    display: none;
+}
+.order div{
+    padding-top:100px;;
+    height:26px;
+    width:500px;
+    margin:0 auto;
+}
+.input_order{
+    float: left;
+    border: 1px #888 solid;
+    height:26px;
+    box-sizing: border-box;
+}
+.order span{
+    float: left;
+    margin-left: 20px;
+    padding:0 20px;
+    line-height: 26px;
+}
+.order span:nth-child(3){
+    background-color: #60bff2;
+    color:#fff;   
+}
